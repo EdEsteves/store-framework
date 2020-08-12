@@ -1,0 +1,28 @@
+{
+  "store.custom#landing": { 
+    "blocks": [
+      "image#landingbanner", 
+      "search-result-layout.customQuery"
+    ]
+  },
+
+  "image#landingbanner": {
+    "props": {
+      "src": "https://appliancetheme.vtexassets.com/arquivos/cozinha-about-us.png",
+      "maxWidth": "100%"
+    }
+  },
+
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage" : 8,
+        "queryField":"Blue Top Retro Camera"
+      }
+    }
+  }
+}
